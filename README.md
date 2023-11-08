@@ -102,11 +102,18 @@ Este gráfico de torta representa la distribución de tecnologías de acceso a I
 
 El análisis de las provincias con mayor cantidad de accesos a Internet por cada 100 habitantes y hogares, con La Pampa incluida en el top 5, ofrece una perspectiva interesante sobre la distribución de la conectividad en Argentina. Aunque La Pampa figura entre las provincias con una alta tasa de acceso a Internet, la investigación de la calidad de los accesos revela un aspecto crucial. A pesar de contar con una gran cantidad de conexiones, la velocidad de bajada promedio en La Pampa es significativamente inferior en comparación con otras provincias. Este hallazgo destaca la importancia de no solo considerar la cantidad de accesos, sino también la calidad y velocidad de la conexión. A pesar de tener una alta penetración de Internet, la experiencia del usuario en La Pampa puede verse limitada por la calidad de la conexión. Esto sugiere la necesidad de mejorar y actualizar la infraestructura de conectividad para garantizar que los usuarios puedan disfrutar de una experiencia de Internet más rápida y eficiente en esta provincia y en otras áreas con desafíos similares de calidad de conexión.
 
-[Buenos Aires]<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/6bae7df5-1d90-432d-89d2-9dcea8676c7d" width="450" height="200">
-[La Pampa]<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/546bb97a-5f8b-40e4-820f-78e88c374306" width="450" height="200">
+*Buenos Aires*
+
+<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/6bae7df5-1d90-432d-89d2-9dcea8676c7d" width="450" height="200">
+
+*La Pampa*
+
+<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/546bb97a-5f8b-40e4-820f-78e88c374306" width="450" height="200">
 
 - Top 5 de provincias con mayor cantidad de accesos por cada 100 hogares y por cada 100 habitantes 
 <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/708139c5-5a41-44ba-9d60-242c3c199960" width="450" height="200">
+
+El gráfico de barras muestra que San Juan, Chaco, Santa Cruz, Santiago del Estero y Formosa son las cinco provincias con los menores accesos a Internet por cada 100 habitantes y hogares. Es importante destacar que el acceso a Internet es fundamental en la actualidad para el desarrollo de la educación, el trabajo y la vida cotidiana. Por lo tanto, es necesario seguir trabajando para reducir la brecha digital y garantizar que todas las personas tengan acceso a la tecnología y a la información que necesitan para mejorar su calidad de vida.
 
 - Accesos cada 100 habitantes por localidad a nivel nacional (para localidades con más de 10.000 habitantes)
 <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/324d70e2-516d-480e-a758-713ca7764399" width="450" height="200">
@@ -117,5 +124,10 @@ El análisis de las provincias con mayor cantidad de accesos a Internet por cada
 - Promedio de accesos cada 100 habitantes según los accesos a internet y a telefonía móvil
 <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/a8e2df23-d07d-4977-baf8-35d28136c8b8" width="450" height="200">
 
+El gráfico de lineas muestra un breve descenso en la cantidad de accesos en el servicio de telefonía móvil y por otro lado un pequeño crecimiento en el acceso a los servicios de internet. Igualmente, hay una gran brecha entre ambas líneas, donde la cantidad de accesos a telefonía móvil es mucho mayor que la de Internet.
+Esto puede deberse a diferentes factores como por ejemplo, el costo del servicio, donde el acceso a Internet puede ser costoso, especialmente en áreas rurales o remotas. Por otro lado, los planes de telefonía móvil pueden ser más asequibles y accesibles para la mayoría de las personas. Por otro lado, la infraestructura necesaria para proporcionar acceso a Internet puede ser costosa y difícil de implementar en áreas remotas. Además, la infraestructura necesaria para proporcionar acceso a telefonía móvil es más fácil de implementar y puede cubrir un área más amplia.
+
 - Evolución de ingresos en miles de pesos como comparación entre los sectores de servicios de internet y servicios de telefonía móvil
 <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/0502baee-f91d-4052-863e-cb43db3a224b" width="450" height="200">
+
+A pesar de que la información sobre los ingresos no pueden ser considerados como tal, por no ser valores constantes. Podemos analizar la diferencia entre los ingresos de ambos servicios, donde podemos ver que los servicios de telefonía móvil generaron mayores ingresos a lo largo de los años que los servicios de internet.
