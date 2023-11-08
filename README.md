@@ -89,13 +89,22 @@ El cual se puede observar que
 ## Gráficos principales
 
 - Distribución de accesos según la tecnología
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/615d0685-104e-4fc8-b327-cff392f7e07d" width="380" height="250">
+<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/615d0685-104e-4fc8-b327-cff392f7e07d" width="350" height="250">
 
 - Top 5 de provincias con mayor cantidad de accesos por cada 100 hogares y por cada 100 habitantes 
 <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/7848811d-fc31-4f42-a13d-e437a9ac4122" width="380" height="250">
 
 - Top 5 de provincias con mayor cantidad de accesos por cada 100 hogares y por cada 100 habitantes 
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/708139c5-5a41-44ba-9d60-242c3c199960" width="380" height="250">
+<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/708139c5-5a41-44ba-9d60-242c3c199960" width="450" height="200">
 
+- Accesos cada 100 habitantes por localidad a nivel nacional (para localidades con más de 10.000 habitantes)
+<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/324d70e2-516d-480e-a758-713ca7764399" width="450" height="200">
+  
+- Accesos cada 100 habitantes por localidades de Buenos Aires (para localidades con más de 10.000 habitantes)
+<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/ede1ab4f-b2c1-4c95-af5a-c82363b66e1a" width="450" height="200">
 
+- Promedio de accesos cada 100 habitantes según los accesos a internet y a telefonía móvil
+<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/a8e2df23-d07d-4977-baf8-35d28136c8b8" width="450" height="200">
 
+- Evolución de ingresos en miles de pesos como comparación entre los sectores de servicios de internet y servicios de telefonía móvil
+<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/0502baee-f91d-4052-863e-cb43db3a224b" width="450" height="200">
