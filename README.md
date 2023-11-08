@@ -73,6 +73,10 @@ Luego de este análisis llegamos a ciertas conclusiones inciales:
     
   - La evolución de la media de bajada de la velocidad de Internet a nivel nacional ha experimentado un incremento notable en los últimos 4 años. Este aumento en la velocidad de descarga refleja una tendencia positiva en el acceso a Internet en el país, lo que significa que los usuarios tienen la capacidad de descargar datos y contenido de manera más rápida y eficiente. Este aumento puede estar relacionado con inversiones en infraestructura, avances tecnológicos y una mayor demanda de servicios de alta velocidad por parte de los usuarios.
 
+## SQL
+
+Se llevó a cabo un proceso que involucró la importación de archivos previamente limpiados utilizando Python en MySQL Workbench. Este paso fue esencial para la creación de nuestra base de datos relacional. Durante el proceso de importación, se realizaron varias tareas, que incluyeron la normalización de tablas y la creación de tablas clave, como la tabla "Calendario," la tabla "Partidos," y la tabla "Provincias." Esta normalización y estructuración de los datos permitieron que nuestra base de datos estuviera organizada y optimizada para el posterior análisis y consulta de información de manera eficiente.
+
 ## KPI´s
 
 Por otro lado, se propone trabajar con 2 KPI´s principales:
@@ -89,10 +93,17 @@ El cual se puede observar que
 ## Gráficos principales
 
 - Distribución de accesos según la tecnología
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/615d0685-104e-4fc8-b327-cff392f7e07d" width="350" height="250">
+<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/615d0685-104e-4fc8-b327-cff392f7e07d" width="400" height="250">
+
+Este gráfico de torta representa la distribución de tecnologías de acceso a Internet, el cual revela una clara predominancia del cablemódem sobre el resto de las tecnologías en la actualidad. Sin embargo, es importante considerar que la tecnología de acceso a Internet está en constante evolución. Con los avances tecnológicos y la creciente demanda de conexiones de alta velocidad y confiabilidad, es posible que esta relación cambie en el futuro. La fibra óptica, conocida por su capacidad para ofrecer velocidades de Internet significativamente más altas y una menor latencia, podría ganar más terreno a medida que los proveedores amplíen sus redes y los consumidores busquen experiencias de Internet más rápidas y eficientes. La inversión en infraestructura y la adopción de tecnologías emergentes serán factores clave que determinarán el futuro de las conexiones a Internet. Por lo tanto, es plausible esperar que la distribución de tecnologías de acceso a Internet continúe cambiando a medida que la tecnología avance para satisfacer las demandas cambiantes de los usuarios.
 
 - Top 5 de provincias con mayor cantidad de accesos por cada 100 hogares y por cada 100 habitantes 
 <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/7848811d-fc31-4f42-a13d-e437a9ac4122" width="380" height="250">
+
+El análisis de las provincias con mayor cantidad de accesos a Internet por cada 100 habitantes y hogares, con La Pampa incluida en el top 5, ofrece una perspectiva interesante sobre la distribución de la conectividad en Argentina. Aunque La Pampa figura entre las provincias con una alta tasa de acceso a Internet, la investigación de la calidad de los accesos revela un aspecto crucial. A pesar de contar con una gran cantidad de conexiones, la velocidad de bajada promedio en La Pampa es significativamente inferior en comparación con otras provincias. Este hallazgo destaca la importancia de no solo considerar la cantidad de accesos, sino también la calidad y velocidad de la conexión. A pesar de tener una alta penetración de Internet, la experiencia del usuario en La Pampa puede verse limitada por la calidad de la conexión. Esto sugiere la necesidad de mejorar y actualizar la infraestructura de conectividad para garantizar que los usuarios puedan disfrutar de una experiencia de Internet más rápida y eficiente en esta provincia y en otras áreas con desafíos similares de calidad de conexión.
+
+[Buenos Aires]<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/6bae7df5-1d90-432d-89d2-9dcea8676c7d" width="450" height="200">
+[La Pampa]<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/546bb97a-5f8b-40e4-820f-78e88c374306" width="450" height="200">
 
 - Top 5 de provincias con mayor cantidad de accesos por cada 100 hogares y por cada 100 habitantes 
 <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/708139c5-5a41-44ba-9d60-242c3c199960" width="450" height="200">
