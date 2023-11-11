@@ -306,3 +306,8 @@ Partidos, por lo que decidimos eliminarla */
 
 ALTER TABLE AccesosLocalidades
 DROP COLUMN Id_Provincia;
+
+-- Nos damos cuenta que no tomo el valor de la provincia para Ciudad Autonoma de Buenos Aires por lo que modificamos el dato
+UPDATE partidos
+SET Id_Provincia = 2
+WHERE Partido = "Ciudad Autónoma De Buenos Aires";
