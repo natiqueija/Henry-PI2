@@ -1,7 +1,7 @@
 <p align="center"><img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/4d8dc359-3286-445b-b43a-20c414ee35c3" width="350" height="250"></p>
 
 
-<H1 align="center">PI-2 Data Analytics - Henry</H1>
+<H1 align="center">Análisis del sector de telecomunicaciones en Argentina entre los años 2014 - 2022</H1>
 
 Segundo proyecto individual realizado en la etapa de labs del bootcamp 'Data Scientist' de [Soy Henry](https://www.soyhenry.com/?utm_source=google&utm_medium=cpc&utm_campaign=GADS_SEARCH_ARG_BRAND&utm_content=brand&gad=1&gclid=Cj0KCQjw1OmoBhDXARIsAAAYGSFC2WWyy_RYznNkc6QevI2HP7hhqdfUyI1W1CofKjIFQpAZhyfTYccaAt-fEALw_wcB), en la cual una empresa prestadora de servicios de telecomunicaciones nos encarga la realización de un análisis completo que permita reconocer el comportamiento del sector a nivel nacional.
 
@@ -35,6 +35,7 @@ En este caso, hemos decidido no utilizarla como base para nuestro estudio por va
 En primer lugar, la falta de datos de inflación representa un obstáculo crítico para interpretar los valores en pesos argentinos. Durante este período, Argentina ha experimentado fluctuaciones significativas en su tasa de inflación, lo que significa que el valor real de los ingresos en pesos argentinos ha variado considerablemente a lo largo de los años. La falta de ajuste por inflación dificulta la comparación precisa y la interpretación de los datos, lo que compromete su utilidad para el estudio del crecimiento o decrecimiento de la industria.
 Además, la base de datos carece de información detallada sobre la procedencia de los ingresos. No podemos determinar si los valores se refieren a una empresa en particular, a un subsector de la industria, o si representan el total de todos los actores del mercado. Esta ambigüedad en la fuente de los datos dificulta aún más su interpretación y su capacidad para proporcionar información relevante.
 Igualmente podemos utilizarla como comparación con otros servicios para ver la relación entre ellos.
+
 - Internet_Accesos-por-velocidad_por loc: información acerca de la cantidad de accesos por velocidad de bajada (Mbps), para cada localidad de Argentina hasta la fecha 7-Nov-2023.
 - Internet-Accesos-por-tecno_por_loc: información acerca de la cantidad de accesos por tecnología utilizada para la conexión a internet, para cada localidad de Argentina hasta la fecha 7-Nov-2023.
 - mapa_conectividad: información acerca de las localidades de Argentina, cantidad de población y si tienen o no conexiónes de las distintas tecnologías. 
@@ -86,48 +87,85 @@ Por otro lado, se propone trabajar con 2 KPI´s principales:
 El cual se puede observar que San Luis es la provincia con mayor aumento en el último trimestre en sus accesos con un 10,44 %, y el que menor registro tiene es la provincia de Formosa con un -9,94 %.
 Las provincias que superaron el 2 % de aumento son San Luis y Corrientes.
 
-2) Aumentar en un
+2) Aumentar en un 100% el accesos al servicio de internet a través de Fibra Óptica por provincia en 1 año.
 
-El cual se puede observar que 
+El cual se puede observar que 10 provincias superaron ese objetivo (Capital Federal, Corrientes, Formosa, La Rioja, Mendoza, Misiones, San Luis, Santa Fé, Santiago del Estero y Tierra del Fuego), de las cuáles resaltan San Luis y Santiago del Estero con aumentos de 3380% y 1040% respectivamente. Esto puede deberse a la implementación de políticas públicas por parte de las provincias para generar un aumento en la inversión de infraestructura y alcance de dicha tecnología para su provincia. Pero también es importante entender que el poco acceso previo a esta tecnología puede generar un aumento exponencial. 
+Además, podemos ver que La Pampa es la provincia más atrasada en la migración hacia esa tecnología. 
 
 ## Gráficos principales
 
 - Distribución de accesos según la tecnología
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/615d0685-104e-4fc8-b327-cff392f7e07d" width="400" height="250">
+<div align="center">
+    <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/615d0685-104e-4fc8-b327-cff392f7e07d" alt="Distribucion de accesos según tecnología" width="50%">
+</div>
+<br>
 
 Este gráfico de torta representa la distribución de tecnologías de acceso a Internet, el cual revela una clara predominancia del cablemódem sobre el resto de las tecnologías en la actualidad. Sin embargo, es importante considerar que la tecnología de acceso a Internet está en constante evolución. Con los avances tecnológicos y la creciente demanda de conexiones de alta velocidad y confiabilidad, es posible que esta relación cambie en el futuro. La fibra óptica, conocida por su capacidad para ofrecer velocidades de Internet significativamente más altas y una menor latencia, podría ganar más terreno a medida que los proveedores amplíen sus redes y los consumidores busquen experiencias de Internet más rápidas y eficientes. La inversión en infraestructura y la adopción de tecnologías emergentes serán factores clave que determinarán el futuro de las conexiones a Internet. Por lo tanto, es plausible esperar que la distribución de tecnologías de acceso a Internet continúe cambiando a medida que la tecnología avance para satisfacer las demandas cambiantes de los usuarios.
 
 - Top 5 de provincias con mayor cantidad de accesos por cada 100 hogares y por cada 100 habitantes 
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/7848811d-fc31-4f42-a13d-e437a9ac4122" width="380" height="250">
+<div align="center">
+    <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/7848811d-fc31-4f42-a13d-e437a9ac4122" alt="Top 5 Provincias con mayor cantidad de accesos cada 100 hogares y habitantes" width="70%">
+</div>
+<br>
 
 El análisis de las provincias con mayor cantidad de accesos a Internet por cada 100 habitantes y hogares, con La Pampa incluida en el top 5, ofrece una perspectiva interesante sobre la distribución de la conectividad en Argentina. Aunque La Pampa figura entre las provincias con una alta tasa de acceso a Internet, la investigación de la calidad de los accesos revela un aspecto crucial. A pesar de contar con una gran cantidad de conexiones, la velocidad de bajada promedio en La Pampa es significativamente inferior en comparación con otras provincias. Este hallazgo destaca la importancia de no solo considerar la cantidad de accesos, sino también la calidad y velocidad de la conexión. A pesar de tener una alta penetración de Internet, la experiencia del usuario en La Pampa puede verse limitada por la calidad de la conexión. Esto sugiere la necesidad de mejorar y actualizar la infraestructura de conectividad para garantizar que los usuarios puedan disfrutar de una experiencia de Internet más rápida y eficiente en esta provincia y en otras áreas con desafíos similares de calidad de conexión.
 
-*Buenos Aires*
+<div align="center">
+  <p>*Buenos Aires*</p>
+</div>
 
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/6bae7df5-1d90-432d-89d2-9dcea8676c7d" width="450" height="200">
+<div align="center">
+    <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/6bae7df5-1d90-432d-89d2-9dcea8676c7d" alt="Calidad de conexión en Buenos Aires" width="50%">
+</div>
+<br>
 
-*La Pampa*
+<div align="center">
+  <p>*La Pampa*</p>
+</div>
 
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/546bb97a-5f8b-40e4-820f-78e88c374306" width="450" height="200">
+<div align="center">
+    <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/546bb97a-5f8b-40e4-820f-78e88c374306" alt="Calidad de conexión en La Pampa" width="50%">
+</div>
+<br>
 
-- Top 5 de provincias con mayor cantidad de accesos por cada 100 hogares y por cada 100 habitantes 
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/708139c5-5a41-44ba-9d60-242c3c199960" width="450" height="200">
+- Top 5 de provincias con menor cantidad de accesos por cada 100 hogares y por cada 100 habitantes 
+<div align="center">
+    <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/708139c5-5a41-44ba-9d60-242c3c199960" alt="Top 5 Provincias con menor cantidad de conexiones cada 100 hogares y habitantes" width="70%">
+</div>
+<br>
 
 El gráfico de barras muestra que San Juan, Chaco, Santa Cruz, Santiago del Estero y Formosa son las cinco provincias con los menores accesos a Internet por cada 100 habitantes y hogares. Es importante destacar que el acceso a Internet es fundamental en la actualidad para el desarrollo de la educación, el trabajo y la vida cotidiana. Por lo tanto, es necesario seguir trabajando para reducir la brecha digital y garantizar que todas las personas tengan acceso a la tecnología y a la información que necesitan para mejorar su calidad de vida.
 
 - Accesos cada 100 habitantes por localidad a nivel nacional (para localidades con más de 10.000 habitantes)
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/324d70e2-516d-480e-a758-713ca7764399" width="450" height="200">
+<div align="center">
+    <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/324d70e2-516d-480e-a758-713ca7764399" alt="Accesos cada 100 habitantes por localidad" width="70%">
+</div>
+<br>
   
 - Accesos cada 100 habitantes por localidades de Buenos Aires (para localidades con más de 10.000 habitantes)
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/ede1ab4f-b2c1-4c95-af5a-c82363b66e1a" width="450" height="200">
+<div align="center">
+    <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/ede1ab4f-b2c1-4c95-af5a-c82363b66e1a" alt="Accesos cada 100 habitantes por localidad" width="70%">
+</div>
+<br>
 
 - Promedio de accesos cada 100 habitantes según los accesos a internet y a telefonía móvil
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/a8e2df23-d07d-4977-baf8-35d28136c8b8" width="450" height="200">
+<div align="center">
+    <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/a8e2df23-d07d-4977-baf8-35d28136c8b8" alt="Promedio de accesos cada 100 habitantes según internet y telefonía" width="70%">
+</div>
+<br>
 
 El gráfico de lineas muestra un breve descenso en la cantidad de accesos en el servicio de telefonía móvil y por otro lado un pequeño crecimiento en el acceso a los servicios de internet. Igualmente, hay una gran brecha entre ambas líneas, donde la cantidad de accesos a telefonía móvil es mucho mayor que la de Internet.
 Esto puede deberse a diferentes factores como por ejemplo, el costo del servicio, donde el acceso a Internet puede ser costoso, especialmente en áreas rurales o remotas. Por otro lado, los planes de telefonía móvil pueden ser más asequibles y accesibles para la mayoría de las personas. Por otro lado, la infraestructura necesaria para proporcionar acceso a Internet puede ser costosa y difícil de implementar en áreas remotas. Además, la infraestructura necesaria para proporcionar acceso a telefonía móvil es más fácil de implementar y puede cubrir un área más amplia.
 
 - Evolución de ingresos en miles de pesos como comparación entre los sectores de servicios de internet y servicios de telefonía móvil
-<img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/0502baee-f91d-4052-863e-cb43db3a224b" width="450" height="200">
+<div align="center">
+    <img src="https://github.com/natiqueija/Henry-PI2/assets/109183272/0502baee-f91d-4052-863e-cb43db3a224b" alt="Evolución de ingresos" width="80%">
+</div>
+<br>
 
-A pesar de que la información sobre los ingresos no pueden ser considerados como tal, por no ser valores constantes. Podemos analizar la diferencia entre los ingresos de ambos servicios, donde podemos ver que los servicios de telefonía móvil generaron mayores ingresos a lo largo de los años que los servicios de internet.
+A pesar de que la información sobre los ingresos no pueden ser considerados como tal, por no ser valores constantes, podemos analizar la diferencia entre los ingresos de ambos servicios. En este caso podemos ver que los servicios de telefonía móvil generaron mayores ingresos a lo largo de los años que los servicios de internet.
+
+## Contacto 
+
+- Mail: natiqueija@gmail.com
+- Linkedin: [Natalia Queija](https://www.linkedin.com/in/natalia-queija/)
